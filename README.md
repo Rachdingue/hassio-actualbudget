@@ -94,7 +94,7 @@ If you only wish to access Actual Budget in your local network then no changes a
 2. Next edit your hosts file. On Linux and OSX this will be at `/etc/hosts` on Windows this will be at `c:\Windows\System32\Drivers\etc\hosts`. Note you will need admin privileges to edit these files.
 3. Add the following line to the end of the hosts file (replacing both the domain and the IP address with the ones you obtained):
 ```
-hassio-actualbudget.duckdns.org 192.168.1.181
+192.168.1.181 hassio-actualbudget.duckdns.org 
 ```
 4. Save this file
 
